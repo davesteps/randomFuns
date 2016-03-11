@@ -1,13 +1,13 @@
 Package: randomFuns
 Type: Package
-Title: A large number of random R functions
+Title: Some useful functions
 Version: 1.0
 Date: 2014-12-05
 Author: David Stephens
 Maintainer: David Stephens <davesteps@gmail.com>
 Description: Mostly spatial and plotting type functions
 License: GPL-2
-Imports: 
+Imports:
     sp,
     rgdal,
     ggplot2,
@@ -19,3 +19,5 @@ Imports:
     RCurl,
     twitteR,
     ROAuth
+RoxygenNote: 5.0.1
+LazyData: true
